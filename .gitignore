@@ -2,8 +2,8 @@
 
 
 NODE_ENV=development
-PORT=3000
-API_KEY=ce618722
+PORT
+API_KEY
 node_modules
 .env
-MONGO_DB_URL=some.url
+MONGO_DB_URL
