@@ -15,7 +15,7 @@ const API_KEY = process.env.OMDB_API_KEY;
 
 export const searchMovies = async (req, res)=>{
     const {title} = req.query;
-
+ 
 
     if (!title){
         return res.status(400).json({error: 'Enter movie title'});
@@ -53,3 +53,4 @@ export const getMovieDetails = async (req, res)=>{
         res.status(500).json({error: 'No movies for you.  Maybe ever.  I just do not know'});
     }
 };
+
